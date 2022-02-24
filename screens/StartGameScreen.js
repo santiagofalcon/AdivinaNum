@@ -53,7 +53,7 @@ const StartGameScreen = props => {
                        autoCorrect={false}
                        keyboardType = "number-pad"
                        maxLength={2}
-                       onCgangeText={numberInputHandler}
+                       onChangeText={numberInputHandler}
                        value={enteredValue}
                 />
                 <View style = {styles.buttonContainer}>
